@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login/Register</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--- bootstrap--->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+<div class="main_bg">
+    <div class="container" id="container">
+      <div class="f-container signup-container">
+        <form action="#" name="form">
+          <h1>Create Account</h1>
+          <div class="g-option-container">
+            <div class='g-sign-in-button'>
+              <div class=content-wrapper>
+
+                  <div class='logo-wrapper'>
+                    <img src='https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg' class="img-1">
+                  </div>
+                      <span class='text-container'>
+                        <span class="txt1">Continue with Google</span>
+                      </span>
+                  </div>
+            </div>
+
+          </div>
+          <span>or use your email for registration</span>
+          <input type="text" placeholder="Name"  >
+          <input type="email" placeholder="Email" id="username">
+          <input type="password" placeholder="Password" id="password">
+          <button onclick="validate" >Sign Up</button>
+        </form>
+      </div>
+      <div class="sign_in_box">
+        <div class="f-container signin-container">
+          <form action="#">
+            <h1>Sign in</h1>
+            <div class="g-option-container">
+              <div class='g-sign-in-button'>
+                <div class=content-wrapper>
+
+                    <div class='logo-wrapper'>
+                      <img src='https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg' class="img-1">
+                    </div>
+
+                      <span class='text-container'>
+                        <span>Continue with Google</span>
+                      </span>
+                  
+
+
+                </div>
+              </div>
+
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" id="username">
+            <input type="password" placeholder="Password" id="password">
+            <a href="forgotPassword.html">Forgot your password?</a>
+            <button onclick="validate">Sign In</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="cover-container">
+        <div class="cover">
+          <div class="cover-panel cover-left">
+            <h1>Welcome Back!</h1>
+            <p>Login to keep connected with us and much more.</p>
+            <button class="b1-sign-in-up" id="signIn">Sign In</button>
+          </div>
+          <div class="cover-panel cover-right">
+            <h1>Hello, Friend!</h1>
+            <p>For an amzing experience ahead join us now!</p>
+            <button class="b1-sign-in-up" id="signUp">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+<script src="index.js" charset="utf-8"></script>
+
+  </body>
+</html>
